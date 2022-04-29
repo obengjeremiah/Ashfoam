@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Employee</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+  <style>
+    .topnav {
+  overflow: hidden;
+  background:#000c40;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+ 
+  color: black;
+}
+
+
+  </style>
+</head>
+<body>
+<div class="topnav">
+   <a href="index.php"><h2 style="color:white;font-family: 'IBM PlexSans', sans-serif;"><i class="fa fa-hospital-o" aria-hidden="true"></i>ASHFOAM</h2></a>
+  <a class="active" href="index.php" style="margin-left: 700px;font-family: 'IBM PlexSans', sans-serif;color:white; font-size:20px;">Home</a>
+  <a href="contact.html" style="margin-left: 00px;font-family: 'IBM PlexSans', sans-serif;color:white; font-size:20px;">Contact</a>
+</div>
+<div class="hero">
+    <form action="" method="post">
+    <div class="form-box">
+        <div id="employee" class="input-group" style="top: 80px;">
+        <h3>New Account</h3>
+        <input type="text" class="input-field" name="fullname" placeholder="Full name"required>
+        <input type="text" class="input-field" name="Eaddress" placeholder="Email Address"required>
+        <input type="text" class="input-field" name="user" placeholder="Username"required>
+        <input type="password" class="input-field" name="password"placeholder="Password"required>
+         <br>
+        <p><a href="register.php" style="position:absolute;top:320px;;">Create New Account.</a></p>
+      </div>
+        <input type="submit" name="submit"value="Login" class="submit-btn" style="position:absolute;left:150px;top:350px;">
+    </div>
+    </form> 
+</div>
+</body>
+
+</html>
